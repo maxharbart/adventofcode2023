@@ -41,7 +41,6 @@ int main() {
 
 
         result += !str_number.empty() ? std::stoi(str_number) : 0;
-        std::cout << "number is " << result << std::endl;
     }
 
     std::cout << "Result: " << result << std::endl;
